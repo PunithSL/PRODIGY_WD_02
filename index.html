@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="current_Container">
+        <div class="search_box">
+          <form class="weatherForm">
+            <input
+              type="text"
+              class="cityInput"
+              name="search"
+              placeholder="Search"
+            />
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="today_weather">
+          <div class="today_place">
+            <h1 id="city">City</h1>
+            <p id="condition">Condition</p>
+            <h2 id="temp">Temp</h2>
+          </div>
+          <div class="today_img">
+            <img
+              src="image/search-icon.png"
+              id="today_icon"
+              alt="Weather Icon"
+            />
+          </div>
+        </div>
+        <div class="place_weather">
+          <div class="place_info">
+            <div class="place">
+              <h4>Name</h4>
+              <h2 id="city">City Name</h2>
+            </div>
+            <div class="place">
+              <h4>Region</h4>
+              <h2 id="city_state">State</h2>
+            </div>
+            <div class="place">
+              <h4>Country</h4>
+              <h2 id="city_country">Country</h2>
+            </div>
+          </div>
+          <div class="place_temp">
+            <div class="place">
+              <h4>Latitude</h4>
+              <h2 id="latitude">10.22</h2>
+            </div>
+            <div class="place">
+              <h4>Longitude</h4>
+              <h2 id="longitude">20.02</h2>
+            </div>
+            <div class="place">
+              <h4>Time</h4>
+              <h2 id="date_time">2022-05-02 19:45</h2>
+            </div>
+          </div>
+        </div>
+        <div class="other_weather">
+          <div class="place_info">
+            <div class="place">
+              <h4>Wind Speed</h4>
+              <h2 id="wind">10 km/h</h2>
+            </div>
+            <div class="place">
+              <h4>Humidity</h4>
+              <h2 id="humidity">30%</h2>
+            </div>
+          </div>
+          <div class="place_temp">
+            <div class="place">
+              <h4>Temperature</h4>
+              <h2 id="temp">31°C</h2>
+            </div>
+            <div class="place">
+              <h4>UV</h4>
+              <h2 id="uv">3</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="future_container">
+        <div class="future_days_title">7 - Days Forecast</div>
+        <div class="future_days">
+          <div class="future_date time0">2019-05-12</div>
+          <div class="future_temp temp0">32°</div>
+          <div class="future_icon">
+            <img src="image/search-icon.png" id="icon0" alt="Weather Icon" />
+          </div>
+        </div>
+        <div class="future_days">
+          <div class="future_date time1">2019-05-12</div>
+          <div class="future_temp temp1">32°</div>
+          <div class="future_icon">
+            <img src="image/search-icon.png" id="icon1" alt="Weather Icon" />
+          </div>
+        </div>
+        <div class="future_days">
+          <div class="future_date time2">2019-05-12</div>
+          <div class="future_temp temp2">32°</div>
+          <div class="future_icon">
+            <img src="image/search-icon.png" id="icon2" alt="Weather Icon" />
+          </div>
+        </div>
+        <div class="future_days">
+          <div class="future_date time3">2019-05-12</div>
+          <div class="future_temp temp3">32°</div>
+          <div class="future_icon">
+            <img src="image/search-icon.png" id="icon3" alt="Weather Icon" />
+          </div>
+        </div>
+        <div class="future_days">
+          <div class="future_date time4">2019-05-12</div>
+          <div class="future_temp temp4">32°</div>
+          <div class="future_icon">
+            <img src="image/search-icon.png" id="icon4" alt="Weather Icon" />
+          </div>
+        </div>
+        <div class="future_days">
+          <div class="future_date time5">2019-05-12</div>
+          <div class="future_temp temp5">32°</div>
+          <div class="future_icon">
+            <img src="image/search-icon.png" id="icon5" alt="Weather Icon" />
+          </div>
+        </div>
+        <div class="future_days">
+          <div class="future_date time6">2019-05-12</div>
+          <div class="future_temp temp6">32°</div>
+          <div class="future_icon">
+            <img src="image/search-icon.png" id="icon6" alt="Weather Icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
